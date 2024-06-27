@@ -1,14 +1,27 @@
 <!doctype html>
 <html>
 
+<!doctype html>
+<html>
+
 <head>
+	<script>
+		function disableClick(){
+			ducument.oneclick=function(event){
+				if (event.button == 2) {
+					alert('Right Click Message');
+					return false;
+				}
+			}
+		}
+	</script>
     <link rel="shortcut icon" type="x-icon" href="https://i.postimg.cc/VLV8Lp3w/avatar-1002046717675.jpg">    
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ruvel Live TV</title>
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
+<title>Rubel Live TV</title>
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
 <!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -25,78 +38,33 @@
   </div>
   <div class="col-xs-12 col-md-2 channel-list">
     <ul class="thumbnail-slider">
-      <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/DBC-NEWS/'"><img src="img/DBC News.png" alt="1"></a></li>
-	          <li><a href="javascript:void();" onclick="player.location.href='massranga.html'"><img src="img/massranga.png" alt="1"></a></li>
+      <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/DBC-NEWS/'"><img src="DBC News.png" alt="1"></a></li>
 
-	  <li><a href="javascript:void();" onclick="player.location.href='https://emdftinya.tinyuri.org/embed/english.php'"><img src="img/willowhd.jpg" alt="1"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='chrome-extension://cjfbmleiaobegagekpmlhmaadepdeedn/index.html#https://fifabd.xyz/IPX/play.m3u8?id=match-1"><img src="img/icc.jpg" alt="1"></a></li>
-	  
-	  <li><a href="javascript:void();" onclick="player.location.href='https://ipl-2024-live.vercel.app/ptv_sports.html'"><img src="img/ptv.jpg" alt="1"></a></li>
-	 <!---- <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/nagorik-tv/'"><img src="img/gtv2.jpg" alt="1"></a></li--->
+	  <li><a href="javascript:void();" onclick="player.location.href='https://emdftinya.tinyuri.org/embed/english.php'"><img src="willowhd.jpg" alt="1"></a></li>
+	  <li><a href="javascript:void();" onclick="player.location.href='https://hdstreamz.vip/sports/player1.php'"><img src="toffe-english.png" alt="1"></a></li>
+	  <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/nagorik-tv/'"><img src="tsports.png" alt="1"></a></li>
+	  <li><a href="javascript:void();" onclick="player.location.href='https://ipl-2024-live.vercel.app/ptv_sports.html'"><img src="ptv.jpg" alt="1"></a></li>
+	  <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/nagorik-tv/'"><img src="gtv2.jpg" alt="1"></a></li>
 
 
-      <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/Bangla-Tv-HD/'"><img src="img/Bangla TV.jpg" alt="2"></a></li>
-      <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/Banglavishon-HD/'"><img src="img/banglavision.jpg" alt="3"></a></li>
-      <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/Boishakhi-Tv/'"><img src="img/boishakhi.png" alt="4"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/Dipto-TV-/'"><img src="img/dipto.jpg" alt="5"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/discovery/Play.html?id=3'"><img src="img/discovarry kidz.jpg" alt="9"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=1079'"><img src="img/cn hd+.png" alt="18"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=816'"><img src="img/cn1.png" alt="19"></a></li>
+      <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/Bangla-Tv-HD/'"><img src="Bangla TV.jpg" alt="2"></a></li>
+      <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/Banglavishon-HD/'"><img src="banglavision.jpg" alt="3"></a></li>
+      <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/Boishakhi-Tv/'"><img src="boishakhi.png" alt="4"></a></li>
+	  <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/Dipto-TV-/'"><img src="dipto.jpg" alt="5"></a></li>
+	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/discovery/Play.html?id=3'"><img src="discovarry kidz.jpg" alt="9"></a></li>
+	  <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/sonic-bangla-/'"><img src="sonic bangla.png" alt="10"></a></li>
+	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=545'"><img src="nick hindi.png" alt="11"></a></li>
+	  <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/Nick-Bangla/'"><img src="nick bangla.png" alt="12"></a></li>
+	  <li><a href="javascript:void();" onclick="player.location.href=' https://younusali013.github.io/zee-bangla-hd/'"><img src="zeebanglahd.jpg" alt="13"></a></li>
+	  <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/star-jalsh/'"><img src="starjalsha.jpg" alt="14"></a></li>
+	  <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/clors-bangla-hd/'"><img src="colorsbangla.jpg" alt="15"></a></li>
+	  <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/enter-10-bangla/'"><img src="enter10bangla.jpg" alt="16"></a></li>
 
-	  <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/sonic-bangla-/'"><img src="img/sonic bangla.png" alt="10"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=545'"><img src="img/nick hindi.png" alt="11"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/Nick-Bangla/'"><img src="img/nick bangla.png" alt="12"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=1977'"><img src="img/zeebanglahd.jpg" alt="13"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/star-jalsh/'"><img src="img/starjalsha.jpg" alt="14"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/clors-bangla-hd/'"><img src="img/colorsbangla.jpg" alt="15"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/enter-10-bangla/'"><img src="img/enter10bangla.jpg" alt="16"></a></li>
-
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=1657'"><img src="img/colors bangla chinema.png" alt="13"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=279'"><img src="img/colors resthey.png" alt="14"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=482'"><img src="img/colors chinephlix.png"alt="25"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=1450'"><img src="img/colors superhit.jpg"alt="25"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=1763'"><img src="img/colors bolly.png"alt="25"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=1477'"><img src="img/colors chineplix hd.png"alt="25"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=185'"><img src="img/& Picture-HD1.png" alt="15"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=144'"><img src="img/colors hd.png" alt="16"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=698'"><img src="img/akashaath.jpg" alt="13"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=685'"><img src="img/zee bangla chinema.jpg" alt="14"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?cid=&id=1669'"><img src="img/sunbangla1.jpg" alt="15"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=3005'"><img src="img/ruposhi bangla.jpg" alt="16"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=3006'"><img src="img/dhoom.jpg" alt="17"></a></li>
-
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/sony-liv/Play.html?id=4'"><img src="img/sony yay.jpg" alt="6"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/sony-liv/Play.html?id=3'"><img src="img/sony pal.jpg" alt="7"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/sony-liv/Play.html?id=1'"><img src="img/son set.jpg" alt="8"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/sony-liv/Play.html?id=7'"><img src="img/sony max2.jpg" alt="17"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/sony-aath/'"><img src="img/sony aath2.jpg" alt="18"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/sony-liv/Play.html?id=2'"><img src="img/sonysab.jpg" alt="19"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/sony-liv/Play.html?id=5'"><img src="img/sony marathi.jpg" alt="20"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/sony-liv/Play.html?id=9'"><img src="img/sony wah.jpg" alt="21"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/sony-liv/Play.html?id=10'"><img src="img/sony max3.jpg" alt="22"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/sony-liv/Play.html?id=11'"><img src="img/sony pix.jpg" alt="23"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/sony-liv/Play.html?id=23'"><img src="img/sony kal.jpg" alt="24"></a></li>
-	  
-
-	  <li><a href="javascript:void();" onclick="player.location.href='https://bdixtv247.techpriyo.com/m3u/jadolist5.php?id=duronto_tv'"><img src="img/sony live.jpg" alt="20"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=573'"><img src="img/Discovary.png" alt="21"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/discovery/Play.html?id=1'"><img src="img/animal.png" alt="22"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?cid=&id=165'"><img src="img/zee chinema hd.png" alt="23"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=2776'"><img src="img/b4u hidz.jpg" alt="23"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=182'"><img src="img/b4u movies.jpg" alt="23"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=183'"><img src="img/b4u music.png" alt="23"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=1295'"><img src="img/B4u-Kadak1.jpg" alt="24"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/discovery/Play.html?id=12'"><img src="img/tlc.png" alt="24"></a></li>
-	  
-	  <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/9xm/'"><img src="img/9xm1.png"alt="25"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=248'"><img src="img/m tv best.png"alt="25"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=250'"><img src="img/misuc india.png"alt="25"></a></li>
-	  
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=440'"><img src="img/9x jalwa.png"alt="25"></a></li>
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=441'"><img src="img/9x jhakkas.jpg"alt="25"></a></li>
-
-	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=740'"><img src="img/sangitbangla.jpg"alt="25"></a></li>
-
+	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=1657'"><img src="colors bangla chinema.png" alt="13"></a></li>
+	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=279'"><img src="colors resthey.png" alt="14"></a></li>
+	  <li><a href="javascript:void();" onclick="player.location.href='https://allinonereborn.github.io/allinone_live_tv/live/jio/Play.html?id=185'"><img src="/& Picture-HD1.png" alt="15"></a></li>
+	  <li><a href="javascript:void();" onclick="player.location.href='https://younusali013.github.io/enter-10-bangla/'"><img src="enter10bangla.jpg" alt="16"></a></li>
+	  <li><a href="javascript:void();" onclick="player.location.href=' https://younusali013.github.io/zee-bangla-hd/'"><img src="izeebanglahd.jpg" alt="13"></a>< 
 	</ul>
   </div>
 </div>
